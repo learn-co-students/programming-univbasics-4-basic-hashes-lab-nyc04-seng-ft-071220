@@ -1,16 +1,21 @@
 def new_hash
-  # return an empty hash
+  a_hash = Hash.new
+  a_hash
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  foods = {:dinner=>" Bread and Hot Chocolate"}
+  foods
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  pioner_hash = {:name=> "Grace Hopper"}
+  pioner_hash
+  
 end
 
-
 def id_hash_generator(number)
-  # return a hash with a key :id assigned to the provided number
+  hash_generator = Hash.new
+  hash_generator[:id]= number
+  hash_generator
 end
