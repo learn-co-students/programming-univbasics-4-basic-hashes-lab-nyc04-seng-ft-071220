@@ -1,16 +1,28 @@
 def new_hash
-  # return an empty hash
+  person = Hash.new
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  person={
+    Christy: 29,
+    Joby: 29,
+    Emily: 29
+  }
 end
 
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+      schools={
+        :name => "Grace Hopper"
+      }
+
 end
 
 
 def id_hash_generator(number)
   # return a hash with a key :id assigned to the provided number
+   example={
+     :id => number
+   }
+
 end
